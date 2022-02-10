@@ -1,0 +1,36 @@
+// Primary/body text
+$mainFont: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+$mainFontSize: 40px;
+$mainColor: #eee;
+
+// Vertical spacing between blocks of text
+$blockMargin: 20px;
+
+// Headings
+$headingMargin: 0 0 $blockMargin 0;
+$headingFont: $mainFont;
+$headingColor: #eee;
+$headingLineHeight: 1.2;
+$headingLetterSpacing: normal;
+$headingTextTransform: uppercase;
+$headingTextShadow: none;
+$headingFontWeight: normal;
+$heading1TextShadow: $headingTextShadow;
+
+$heading1Size: 3.77em;
+$heading2Size: 2.11em;
+$heading3Size: 1.55em;
+$heading4Size: 1.00em;
+
+$codeFont: monospace;
+
+// Links and actions
+$linkColor: #13DAEC;
+$linkColorHover: lighten($linkColor, 20%);
+
+// Text selection
+$selectionBackgroundColor: #FF5E99;
+$selectionColor: #fff;
+
+// Change text colors against dark slide backgrounds
+@include dark-bg-text-color(#fff);
